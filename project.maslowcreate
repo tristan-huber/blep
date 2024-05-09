@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "blep",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 929015,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "simplify": false,
+    "unitsIndex": 0,
+    "filetypeVersion": 1
+}
