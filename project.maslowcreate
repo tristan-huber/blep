@@ -81,23 +81,10 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 847821,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 360890
-                }
-            ]
+            "ioValues": []
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 360890,
-            "ap2ID": 847821
-        }
-    ],
+    "allConnectors": [],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
