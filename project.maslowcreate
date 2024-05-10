@@ -14,6 +14,23 @@
             "y": 0.5,
             "uniqueID": 847821,
             "ioValues": []
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.25703125,
+            "y": 0.5123152709359606,
+            "uniqueID": 991588,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [],
