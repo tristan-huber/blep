@@ -4,17 +4,14 @@
     "x": 0,
     "y": 0,
     "uniqueID": 929015,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "width",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 847821,
-            "ioValues": []
-        },
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
@@ -31,6 +28,22 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 847821,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "width",
+            "x": 0.013333333333333334,
+            "y": 0.348111658456486,
+            "uniqueID": 740777,
+            "ioValues": []
         }
     ],
     "allConnectors": [],
