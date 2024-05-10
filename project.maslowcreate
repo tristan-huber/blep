@@ -13,6 +13,14 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Input",
+            "name": "width",
+            "x": 0.013333333333333334,
+            "y": 0.348111658456486,
+            "uniqueID": 740777,
+            "ioValues": []
+        },
+        {
             "atomType": "Rectangle",
             "name": "Rectangle",
             "x": 0.25703125,
@@ -35,14 +43,6 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 847821,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
-            "name": "width",
-            "x": 0.013333333333333334,
-            "y": 0.348111658456486,
-            "uniqueID": 740777,
             "ioValues": []
         }
     ],
