@@ -38,23 +38,10 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 847821,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 991588
-                }
-            ]
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.20703125,
-            "y": 0.7307060755336617,
+            "x": 0.207421875,
+            "y": 0.722495894909688,
             "uniqueID": 360890,
             "ioValues": [
                 {
@@ -87,6 +74,19 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 847821,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 991588
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -96,8 +96,7 @@
             "ap2Primary": false,
             "ap1ID": 991588,
             "ap2ID": 847821
-        },
-        null
+        }
     ],
     "fileTypeVersion": 1,
     "simplify": false,
