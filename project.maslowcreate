@@ -23,13 +23,13 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.26015625,
-            "y": 0.4564860426929392,
+            "x": 0.32890625,
+            "y": 0.41707717569786534,
             "uniqueID": 991588,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 4
                 },
                 {
                     "name": "y length",
@@ -43,10 +43,62 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 847821,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 991588
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20703125,
+            "y": 0.7307060755336617,
+            "uniqueID": 360890,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.432421875,
+            "y": 0.6978653530377669,
+            "uniqueID": 261014,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 991588,
+            "ap2ID": 847821
+        },
+        null
+    ],
     "fileTypeVersion": 1,
     "simplify": false,
     "unitsIndex": 0,
