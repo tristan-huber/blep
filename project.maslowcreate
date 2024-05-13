@@ -6,17 +6,21 @@
     "uniqueID": 929015,
     "ioValues": [
         {
-            "name": "width",
+            "name": "diameter",
             "ioValue": 100
+        },
+        {
+            "name": "name",
+            "ioValue": 10
         }
     ],
     "topLevel": true,
     "allAtoms": [
         {
             "atomType": "Input",
-            "name": "width",
+            "name": "diameter",
             "x": 0.013333333333333334,
-            "y": 0.4844006568144499,
+            "y": 0.4532019704433498,
             "uniqueID": 740777,
             "ioValues": []
         },
@@ -105,6 +109,14 @@
                     "ioValue": 360890
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "name",
+            "x": 0.013333333333333334,
+            "y": 0.3054187192118226,
+            "uniqueID": 697722,
+            "ioValues": []
         }
     ],
     "allConnectors": [
