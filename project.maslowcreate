@@ -82,6 +82,24 @@
             "y": 0.5,
             "uniqueID": 847821,
             "ioValues": []
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.46328125000000003,
+            "y": 0.3825944170771757,
+            "uniqueID": 972447,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         }
     ],
     "allConnectors": [],
