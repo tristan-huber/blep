@@ -16,7 +16,7 @@
             "atomType": "Input",
             "name": "width",
             "x": 0.013333333333333334,
-            "y": 0.4745484400656814,
+            "y": 0.4646962233169129,
             "uniqueID": 740777,
             "ioValues": []
         },
@@ -36,6 +36,24 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Loft",
+            "name": "Loft",
+            "x": 0.46328125000000003,
+            "y": 0.3825944170771757,
+            "uniqueID": 972447,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         },
         {
             "atomType": "Circle",
@@ -82,24 +100,6 @@
             "y": 0.5,
             "uniqueID": 847821,
             "ioValues": []
-        },
-        {
-            "atomType": "Loft",
-            "name": "Loft",
-            "x": 0.46328125000000003,
-            "y": 0.3825944170771757,
-            "uniqueID": 972447,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
-                }
-            ],
-            "closedSelection": 0
         }
     ],
     "allConnectors": [],
