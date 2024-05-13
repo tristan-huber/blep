@@ -6,7 +6,7 @@
     "uniqueID": 929015,
     "ioValues": [
         {
-            "name": "name",
+            "name": "thickness",
             "ioValue": 10
         },
         {
@@ -18,25 +18,73 @@
     "allAtoms": [
         {
             "atomType": "Input",
-            "name": "name",
+            "name": "thickness",
             "x": 0.013333333333333334,
             "y": 0.29850746268656714,
             "uniqueID": 697722,
             "ioValues": []
         },
         {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.175390625,
+            "y": 0.3891625615763547,
+            "uniqueID": 201085,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 100
+                },
+                {
+                    "name": "y",
+                    "ioValue": 10
+                }
+            ],
+            "currentEquation": "x + y"
+        },
+        {
             "atomType": "Input",
             "name": "diameter",
             "x": 0.013333333333333334,
-            "y": 0.4532019704433498,
+            "y": 0.5296610169491526,
             "uniqueID": 740777,
             "ioValues": []
         },
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.195703125,
-            "y": 0.7635467980295567,
+            "x": 0.24672639558924883,
+            "y": 0.4894067796610169,
+            "uniqueID": 143193,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 110
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.4293590627153687,
+            "y": 0.5593220338983051,
+            "uniqueID": 942401,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": 360890
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": 143193
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.24052377670572017,
+            "y": 0.7563559322033898,
             "uniqueID": 360890,
             "ioValues": [
                 {
@@ -54,27 +102,9 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 360890
+                    "ioValue": ""
                 }
             ]
-        },
-        {
-            "atomType": "Equation",
-            "name": "x + y",
-            "x": 0.175390625,
-            "y": 0.3891625615763547,
-            "uniqueID": 201085,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 10
-                }
-            ],
-            "currentEquation": "x + y"
         }
     ],
     "allConnectors": [
@@ -86,6 +116,13 @@
             "ap2ID": 201085
         },
         {
+            "ap1Name": "result",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 201085,
+            "ap2ID": 143193
+        },
+        {
             "ap1Name": "number or geometry",
             "ap2Name": "diameter",
             "ap2Primary": false,
@@ -93,11 +130,32 @@
             "ap2ID": 360890
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 740777,
+            "ap2ID": 201085
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 143193,
+            "ap2ID": 942401
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 360890,
+            "ap1ID": 942401,
             "ap2ID": 847821
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 360890,
+            "ap2ID": 942401
         }
     ],
     "fileTypeVersion": 1,
