@@ -18,6 +18,14 @@
     "allAtoms": [
         {
             "atomType": "Input",
+            "name": "name",
+            "x": 0.013333333333333334,
+            "y": 0.3054187192118226,
+            "uniqueID": 697722,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
             "name": "diameter",
             "x": 0.013333333333333334,
             "y": 0.4532019704433498,
@@ -109,14 +117,6 @@
                     "ioValue": 360890
                 }
             ]
-        },
-        {
-            "atomType": "Input",
-            "name": "name",
-            "x": 0.013333333333333334,
-            "y": 0.3054187192118226,
-            "uniqueID": 697722,
-            "ioValues": []
         }
     ],
     "allConnectors": [
