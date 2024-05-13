@@ -29,7 +29,7 @@
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 4
+                    "ioValue": 10
                 },
                 {
                     "name": "y length",
@@ -40,8 +40,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.207421875,
-            "y": 0.722495894909688,
+            "x": 0.10657370517928286,
+            "y": 0.768025078369906,
             "uniqueID": 360890,
             "ioValues": [
                 {
