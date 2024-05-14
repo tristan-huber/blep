@@ -94,14 +94,6 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9714843750000001,
-            "y": 0.3530377668308703,
-            "uniqueID": 847821,
-            "ioValues": []
-        },
-        {
             "atomType": "Equation",
             "name": "x + y + z + q",
             "x": 0.6708860759493671,
@@ -118,7 +110,7 @@
                 },
                 {
                     "name": "z",
-                    "ioValue": 1
+                    "ioValue": 143193
                 },
                 {
                     "name": "q",
@@ -126,6 +118,14 @@
                 }
             ],
             "currentEquation": "x + y + z + q"
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9714843750000001,
+            "y": 0.3530377668308703,
+            "uniqueID": 847821,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -142,6 +142,13 @@
             "ap2Primary": false,
             "ap1ID": 697722,
             "ap2ID": 201085
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "z",
+            "ap2Primary": false,
+            "ap1ID": 143193,
+            "ap2ID": 800530
         },
         {
             "ap1Name": "number or geometry",
