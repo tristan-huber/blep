@@ -117,6 +117,32 @@
             "y": 0.3530377668308703,
             "uniqueID": 847821,
             "ioValues": []
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y + z + q",
+            "x": 0.44999999999999996,
+            "y": 0.40963855421686746,
+            "uniqueID": 846306,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                },
+                {
+                    "name": "z",
+                    "ioValue": 1
+                },
+                {
+                    "name": "q",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y + z + q"
         }
     ],
     "allConnectors": [
