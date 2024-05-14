@@ -64,40 +64,6 @@
             ]
         },
         {
-            "atomType": "Equation",
-            "name": "x + y + z + q + r + f",
-            "x": 0.688671875,
-            "y": 0.5084337349397591,
-            "uniqueID": 846306,
-            "ioValues": [
-                {
-                    "name": "x",
-                    "ioValue": 1
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
-                },
-                {
-                    "name": "z",
-                    "ioValue": 1
-                },
-                {
-                    "name": "q",
-                    "ioValue": 1
-                },
-                {
-                    "name": "r",
-                    "ioValue": 1
-                },
-                {
-                    "name": "f",
-                    "ioValue": 1
-                }
-            ],
-            "currentEquation": "x + y + z + q + r + f"
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.5444521019986216,
@@ -143,6 +109,40 @@
                     "ioValue": 143193
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + y + z + q + r + f",
+            "x": 0.68984375,
+            "y": 0.5301204819277108,
+            "uniqueID": 846306,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                },
+                {
+                    "name": "z",
+                    "ioValue": 1
+                },
+                {
+                    "name": "q",
+                    "ioValue": 1
+                },
+                {
+                    "name": "r",
+                    "ioValue": 1
+                },
+                {
+                    "name": "f",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y + z + q + r + f"
         },
         {
             "atomType": "Output",
