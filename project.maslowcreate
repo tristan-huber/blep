@@ -43,14 +43,6 @@
             "currentEquation": "x + y"
         },
         {
-            "atomType": "Input",
-            "name": "diameter",
-            "x": 0.013333333333333334,
-            "y": 0.5773026315789473,
-            "uniqueID": 740777,
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.24672639558924883,
@@ -62,6 +54,14 @@
                     "ioValue": 110
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "diameter",
+            "x": 0.013333333333333334,
+            "y": 0.5773026315789473,
+            "uniqueID": 740777,
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
