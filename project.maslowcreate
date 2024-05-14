@@ -20,7 +20,7 @@
             "atomType": "Input",
             "name": "thickness",
             "x": 0.013333333333333334,
-            "y": 0.1625615763546798,
+            "y": 0.26929392446633826,
             "uniqueID": 697722,
             "ioValues": []
         },
@@ -134,6 +134,7 @@
             "ap1ID": 697722,
             "ap2ID": 201085
         },
+        null,
         {
             "ap1Name": "result",
             "ap2Name": "diameter",
