@@ -46,7 +46,7 @@
             "atomType": "Input",
             "name": "diameter",
             "x": 0.013333333333333334,
-            "y": 0.5296610169491526,
+            "y": 0.5773026315789473,
             "uniqueID": 740777,
             "ioValues": []
         },
@@ -90,23 +90,6 @@
                 {
                     "name": "diameter",
                     "ioValue": 100
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "name": "Difference",
-            "x": 0.43867187500000004,
-            "y": 0.6795180722891566,
-            "uniqueID": 942401,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": 360890
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": 143193
                 }
             ]
         },
