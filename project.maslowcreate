@@ -20,7 +20,7 @@
             "atomType": "Input",
             "name": "thickness",
             "x": 0.013333333333333334,
-            "y": 0.26929392446633826,
+            "y": 0.3267651888341544,
             "uniqueID": 697722,
             "ioValues": []
         },
@@ -134,55 +134,12 @@
             "ap1ID": 697722,
             "ap2ID": 201085
         },
-        null,
-        {
-            "ap1Name": "result",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 201085,
-            "ap2ID": 143193
-        },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "diameter",
             "ap2Primary": false,
             "ap1ID": 740777,
             "ap2ID": 360890
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "x",
-            "ap2Primary": false,
-            "ap1ID": 740777,
-            "ap2ID": 201085
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 143193,
-            "ap2ID": 942401
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 470962,
-            "ap2ID": 847821
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 360890,
-            "ap2ID": 942401
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 942401,
-            "ap2ID": 470962
         }
     ],
     "fileTypeVersion": 1,
