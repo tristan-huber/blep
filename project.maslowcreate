@@ -95,9 +95,9 @@
         },
         {
             "atomType": "Equation",
-            "name": "x + y + z + q",
-            "x": 0.6708860759493671,
-            "y": 0.5980392156862745,
+            "name": "x + y + z",
+            "x": 0.6698641087130296,
+            "y": 0.6809815950920245,
             "uniqueID": 800530,
             "ioValues": [
                 {
@@ -111,13 +111,9 @@
                 {
                     "name": "z",
                     "ioValue": 143193
-                },
-                {
-                    "name": "q",
-                    "ioValue": 1
                 }
             ],
-            "currentEquation": "x + y + z + q"
+            "currentEquation": "x + y + z"
         },
         {
             "atomType": "Output",
