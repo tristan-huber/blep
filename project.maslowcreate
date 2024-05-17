@@ -106,7 +106,7 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 360890
+                    "ioValue": 1
                 },
                 {
                     "name": "z",
@@ -160,13 +160,6 @@
             "ap2Primary": false,
             "ap1ID": 470962,
             "ap2ID": 847821
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "y",
-            "ap2Primary": false,
-            "ap1ID": 360890,
-            "ap2ID": 800530
         }
     ],
     "fileTypeVersion": 1,
