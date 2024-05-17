@@ -102,11 +102,11 @@
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 1
+                    "ioValue": 100
                 },
                 {
                     "name": "y",
-                    "ioValue": 1
+                    "ioValue": 10
                 },
                 {
                     "name": "z",
@@ -114,7 +114,7 @@
                 },
                 {
                     "name": "q",
-                    "ioValue": 1
+                    "ioValue": 143193
                 }
             ],
             "currentEquation": "x + y + z + q"
@@ -125,12 +125,7 @@
             "x": 0.9714843750000001,
             "y": 0.3530377668308703,
             "uniqueID": 847821,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -149,8 +144,22 @@
             "ap2ID": 201085
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": 697722,
+            "ap2ID": 800530
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "z",
+            "ap2Primary": false,
+            "ap1ID": 143193,
+            "ap2ID": 800530
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "q",
             "ap2Primary": false,
             "ap1ID": 143193,
             "ap2ID": 800530
@@ -161,6 +170,13 @@
             "ap2Primary": false,
             "ap1ID": 740777,
             "ap2ID": 360890
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 740777,
+            "ap2ID": 800530
         },
         {
             "ap1Name": "geometry",
