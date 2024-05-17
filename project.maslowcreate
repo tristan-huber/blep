@@ -106,11 +106,11 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 1
+                    "ioValue": 360890
                 },
                 {
                     "name": "z",
-                    "ioValue": 360890
+                    "ioValue": 1
                 },
                 {
                     "name": "q",
@@ -163,7 +163,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "z",
+            "ap2Name": "y",
             "ap2Primary": false,
             "ap1ID": 360890,
             "ap2ID": 800530
